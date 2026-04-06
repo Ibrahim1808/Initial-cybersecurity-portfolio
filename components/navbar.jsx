@@ -1,76 +1,55 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { siteConfig } from "@/lib/site";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/projects", label: "Projects" },
-  { href: "/lab", label: "Lab" },
-  { href: "/notes", label: "Notes" },
-  { href: "/resume", label: "Resume" },
-  { href: "/contact", label: "Contact" },
+  { href: "#services", label: "Services" },
+  { href: "#why-us", label: "Why Us" },
+  { href: "#gallery", label: "Gallery" },
+  { href: "#estimator", label: "Estimate" },
+  { href: "#reviews", label: "Reviews" },
+  { href: "#contact", label: "Contact" },
 ];
 
-function isActivePath(pathname, href) {
-  if (href === "/") {
-    return pathname === "/";
-  }
-
-  return pathname === href || pathname.startsWith(`${href}/`);
-}
-
 export function Navbar() {
-  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-cyber-line bg-cyber-base/65 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur-xl">
       <div className="section-shell py-4">
         <div className="flex items-center justify-between gap-4">
-          <Link href="/" className="font-display text-lg uppercase tracking-[0.3em] text-white">
-            <span className="text-cyber-acid">{siteConfig.hero.name}</span> SecOps
-          </Link>
+          <a href="#top" className="font-display text-2xl tracking-[0.18em] text-white">
+            Royal <span style={{ color: "var(--royal-gold)" }}>Car Detail</span>
+          </a>
 
           <nav className="hidden items-center gap-2 md:flex">
-            {navItems.map((item) => {
-              const active = isActivePath(pathname, item.href);
-
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`relative rounded-full px-4 py-2 text-sm transition ${
-                    active ? "text-white" : "text-slate-400 hover:text-white"
-                  }`}
-                >
-                  {active ? (
-                    <motion.span
-                      layoutId="nav-pill"
-                      className="absolute inset-0 -z-10 rounded-full border border-cyber-neon/40 bg-cyber-neon/10"
-                    />
-                  ) : null}
-                  {item.label}
-                </Link>
-              );
-            })}
+            {navItems.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="rounded-full px-4 py-2 text-sm text-white/72 transition hover:bg-white/5 hover:text-white"
+              >
+                {item.label}
+              </a>
+            ))}
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link
-              href="/contact"
-              className="hidden rounded-full border border-cyber-acid/50 bg-cyber-acid/10 px-4 py-2 text-sm text-cyber-acid transition hover:bg-cyber-acid/20 md:inline-flex"
+            <a
+              href={siteConfig.calendly}
+              target="_blank"
+              rel="noreferrer"
+              className="gold-button hidden rounded-full px-5 py-2.5 text-sm font-semibold transition md:inline-flex"
             >
-              Start a Conversation
-            </Link>
+              Book Now
+            </a>
 
             <button
               type="button"
               onClick={() => setIsOpen((current) => !current)}
-              className="inline-flex rounded-full border border-cyber-line bg-white/[0.03] px-4 py-2 text-sm text-white transition hover:border-cyber-neon/50 md:hidden"
+              className="inline-flex rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white transition hover:border-[rgba(212,175,55,0.45)] md:hidden"
               aria-expanded={isOpen}
               aria-label="Toggle navigation menu"
             >
@@ -87,25 +66,26 @@ export function Navbar() {
               exit={{ opacity: 0, height: 0 }}
               className="overflow-hidden md:hidden"
             >
-              <div className="mt-4 space-y-2 rounded-3xl border border-cyber-line bg-cyber-panel/90 p-3 shadow-glow">
-                {navItems.map((item) => {
-                  const active = isActivePath(pathname, item.href);
-
-                  return (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      onClick={() => setIsOpen(false)}
-                      className={`block rounded-2xl px-4 py-3 text-sm transition ${
-                        active
-                          ? "border border-cyber-neon/40 bg-cyber-neon/10 text-white"
-                          : "text-slate-300 hover:bg-white/[0.03] hover:text-white"
-                      }`}
-                    >
-                      {item.label}
-                    </Link>
-                  );
-                })}
+              <div className="mt-4 space-y-2 rounded-[1.75rem] border border-white/10 bg-black/90 p-3">
+                {navItems.map((item) => (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="block rounded-2xl px-4 py-3 text-sm text-white/78 transition hover:bg-white/[0.03] hover:text-white"
+                  >
+                    {item.label}
+                  </a>
+                ))}
+                <a
+                  href={siteConfig.calendly}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={() => setIsOpen(false)}
+                  className="gold-button mt-2 block rounded-2xl px-4 py-3 text-center text-sm font-semibold"
+                >
+                  Book Now
+                </a>
               </div>
             </motion.nav>
           ) : null}

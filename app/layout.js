@@ -1,16 +1,17 @@
-import { Orbitron, JetBrains_Mono } from "next/font/google";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { GridBackground } from "@/components/grid-background";
 import { siteConfig } from "@/lib/site";
 
-const orbitron = Orbitron({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
+  weight: ["500", "600", "700"],
   variable: "--font-display",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-body",
 });
@@ -23,11 +24,11 @@ export const metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "cybersecurity",
-    "pentesting",
-    "portfolio",
-    "red team",
-    "security research",
+    "car detailing",
+    "ceramic coating",
+    "interior detailing",
+    "luxury auto detailing",
+    "paint correction",
   ],
   openGraph: {
     title: siteConfig.name,
@@ -55,7 +56,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${orbitron.variable} ${jetbrainsMono.variable} bg-cyber-base text-white antialiased`}
+        className={`${cormorant.variable} ${manrope.variable} bg-royal-ink text-white antialiased`}
       >
         <GridBackground />
         <div className="relative min-h-screen">
