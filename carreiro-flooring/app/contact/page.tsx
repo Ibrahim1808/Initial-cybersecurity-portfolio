@@ -1,0 +1,8 @@
+import {PageIntro} from '@/components/ui';
+import {QuoteForm} from '@/components/quote-form';
+import {businessConfig as b} from '@/lib/business';
+import {projectTypes} from '@/lib/quote';
+import {pageMetadata} from '@/lib/seo';
+export const dynamic='force-dynamic';
+export const metadata=pageMetadata('Contact & Free Quote','Talk to Carreiro Flooring Contractor LLC about your flooring project. Call +1 (484) 803-7411 or request a quote for hardwood, vinyl, laminate or stairs.','/contact');
+export default async function Contact({searchParams}:{searchParams:Promise<{type?:string}>}){const {type}=await searchParams;const enabled=!!(process.env.RESEND_API_KEY&&process.env.QUOTE_FROM_EMAIL&&process.env.QUOTE_TO_EMAIL);return <><PageIntro eyebrow="Let’s make it happen" title="Let’s talk about your project.">A new look starts with a conversation. Tell us about your space and the flooring you have in mind.</PageIntro><section className="container contact-layout"><aside><p className="eyebrow">A direct connection</p><h2>We’d love to<br/><em>hear your ideas.</em></h2><dl className="contact-details"><dt>Call us</dt><dd><a href={b.phoneHref}>{b.phone} ↗</a></dd><dt>Email us</dt><dd><a href={'mailto:'+b.email}>{b.email} ↗</a></dd><dt>Service area</dt><dd>{b.serviceArea}<small>Get in touch to discuss your project location.</small></dd></dl><div className="contact-note"><span aria-hidden="true">↗</span><p>One room, a staircase or a larger flooring project. Let’s explore what works for your home.</p></div></aside><QuoteForm enabled={enabled} initialType={projectTypes.includes(type as typeof projectTypes[number])?type!:''}/></section></>}
