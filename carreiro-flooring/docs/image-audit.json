@@ -1,0 +1,800 @@
+[
+  {
+    "source": "1-Photo-1.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "2-Photo-2.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "3-Photo-3.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "4-Photo-4.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "5-Photo-5.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "6-Photo-6.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "7-Photo-7.jpg",
+    "status": "excluded",
+    "reason": "Unrelated exterior door; lockbox visible",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "8-Photo-8.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "9-Photo-9.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "10-Photo-10.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "11-Photo-11.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Laminate"
+  },
+  {
+    "source": "12-Photo-12.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Laminate"
+  },
+  {
+    "source": "13-Photo-13.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Laminate"
+  },
+  {
+    "source": "14-Photo-14.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Laminate"
+  },
+  {
+    "source": "15-Photo-15.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Laminate"
+  },
+  {
+    "source": "16-Photo-16.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "17-Photo-17.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "18-Photo-18.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "19-Photo-19.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "20-Photo-20.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "21-Photo-21.jpg",
+    "status": "excluded",
+    "reason": "Duplicate of 19",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "22-Photo-22.jpg",
+    "status": "excluded",
+    "reason": "Duplicate of 20",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "23-Photo-23.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "24-Photo-24.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "25-Photo-25.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "26-Photo-26.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "27-Photo-27.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "28-Photo-28.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "29-Photo-29.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "30-Photo-30.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "31-Photo-31.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "32-Photo-32.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "33-Photo-33.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "34-Photo-34.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "35-Photo-35.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "36-Photo-36.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "37-Photo-37.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "38-Photo-38.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "39-Photo-39.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "40-Photo-40.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "41-Photo-41.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "42-Photo-42.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "43-Photo-43.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "44-Photo-44.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "45-Photo-45.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "46-Photo-46.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "47-Photo-47.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "48-Photo-48.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "49-Photo-49.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "50-Photo-50.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "51-Photo-51.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "58-Photo-58.jpg",
+    "status": "excluded",
+    "reason": "Out of focus",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "59-Photo-59.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "60-Photo-60.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "61-Photo-61.jpg",
+    "status": "excluded",
+    "reason": "Motion blur",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "62-Photo-62.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "63-Photo-63.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "64-Photo-64.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "65-Photo-65.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "66-Photo-66.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "67-Photo-67.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "68-Photo-68.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "69-Photo-69.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "70-Photo-70.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "71-Photo-71.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "72-Photo-72.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "73-Photo-73.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "74-Photo-74.jpg",
+    "status": "excluded",
+    "reason": "Motion blur",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "75-Photo-75.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "76-Photo-76.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Stairs"
+  },
+  {
+    "source": "77-Photo-77.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Stairs"
+  },
+  {
+    "source": "78-Photo-78.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "79-Photo-79.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "80-Photo-80.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "81-Photo-81.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "82-Photo-82.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "83-Photo-83.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "84-Photo-84.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "85-Photo-85.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "86-Photo-86.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "87-Photo-87.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "88-Photo-88.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "89-Photo-89.jpg",
+    "status": "excluded",
+    "reason": "Motion blur",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "90-Photo-90.jpg",
+    "status": "excluded",
+    "reason": "Poor composition and shadow",
+    "category": "Uncategorized"
+  },
+  {
+    "source": "91-Photo-91.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "92-Photo-92.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "93-Photo-93.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "94-Photo-94.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "95-Photo-95.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "96-Photo-96.jpg",
+    "status": "excluded",
+    "reason": "Motion blur",
+    "category": "Vinyl"
+  },
+  {
+    "source": "97-Photo-97.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "98-Photo-98.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "99-Photo-99.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "100-Photo-100.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "101-Photo-101.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "102-Photo-102.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "104-Photo-104.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "105-Photo-105.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "106-Photo-106.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "107-Photo-107.jpg",
+    "status": "excluded",
+    "reason": "Motion blur",
+    "category": "Vinyl"
+  },
+  {
+    "source": "108-Photo-108.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "109-Photo-109.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "110-Photo-110.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "111-Photo-111.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "112-Photo-112.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "113-Photo-113.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "114-Photo-114.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "115-Photo-115.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "116-Photo-116.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "117-Photo-117.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "118-Photo-118.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "119-Photo-119.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "120-Photo-120.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "121-Photo-121.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "122-Photo-122.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "123-Photo-123.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "124-Photo-124.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "125-Photo-125.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "126-Photo-126.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "127-Photo-127.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "128-Photo-128.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Vinyl"
+  },
+  {
+    "source": "129-Photo-129.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Vinyl"
+  },
+  {
+    "source": "130-Photo-130.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "131-Photo-131.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "132-Photo-132.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "133-Photo-133.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "134-Photo-134.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "135-Photo-135.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "136-Photo-136.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Stairs"
+  },
+  {
+    "source": "137-Photo-137.jpg",
+    "status": "included",
+    "reason": "Flooring portfolio",
+    "category": "Hardwood"
+  },
+  {
+    "source": "138-Photo-138.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "139-Photo-139.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  },
+  {
+    "source": "140-Photo-140.jpg",
+    "status": "included",
+    "reason": "Installation detail",
+    "category": "Hardwood"
+  }
+]

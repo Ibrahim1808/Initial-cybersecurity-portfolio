@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import {businessConfig as b,navigation} from '@/lib/business';
+import {services} from '@/data/services';
+export function Footer(){return <footer className="footer"><div className="container footer-grid"><div><Link className="footer-brand" href="/">CARREIRO<span>FLOORING CONTRACTOR LLC</span></Link><p>A beautiful foundation<br/>for the place you call home.</p></div><div><h2>Explore</h2>{navigation.map(n=><Link href={n.href} key={n.href}>{n.label}</Link>)}</div><div><h2>Our expertise</h2>{services.map(s=><Link key={s.id} href={'/services#'+s.id}>{s.name}</Link>)}</div><div><h2>Let’s connect</h2><a href={b.phoneHref}>{b.phone}</a><a href={'mailto:'+b.email}>{b.email}</a><p>{b.serviceArea}</p></div></div><div className="container footer-bottom"><span>© 2026 {b.businessName}. All rights reserved.</span><span>Hardwood · Vinyl · Laminate · Stairs</span></div></footer>}
